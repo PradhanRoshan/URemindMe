@@ -31,7 +31,7 @@ public class NoteFragment extends Fragment {
         binding = FragmentNoteBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textNote;
+        final TextView textView = binding.eiText;
         noteViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
@@ -44,7 +44,7 @@ public class NoteFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.nfButton.setOnClickListener(new View.OnClickListener() {
+        binding.addBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(NoteFragment.this)

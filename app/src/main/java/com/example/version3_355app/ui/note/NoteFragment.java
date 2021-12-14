@@ -19,7 +19,7 @@ import com.example.version3_355app.databinding.FragmentNoteBinding;
 
 public class NoteFragment extends Fragment {
 
-
+//its the private 
     private NoteViewModel noteViewModel;
     private FragmentNoteBinding binding;
 

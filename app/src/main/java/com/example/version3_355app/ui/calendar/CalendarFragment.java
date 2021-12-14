@@ -31,10 +31,7 @@ public class CalendarFragment extends Fragment {
 
         binding = FragmentCalendarBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-        // By ID we can use each component
-        // which id is assign in xml file
-        // use findViewById() to get the
-        // CalendarView and TextView
+        
         CalendarView calendar  = (CalendarView)root.findViewById(R.id.calendar);
         TextView date_view = (TextView)root.findViewById(R.id.text_calendar);
 
@@ -45,8 +42,7 @@ public class CalendarFragment extends Fragment {
                                 .OnDateChangeListener() {
                             @Override
 
-                            // In this Listener have one method
-                            // and in this method we will
+                            
                             // get the value of DAYS, MONTH, YEARS
                             public void onSelectedDayChange(
                                     @NonNull CalendarView view,

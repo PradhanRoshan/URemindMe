@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.fragment.NavHostFragment;
-
+//importing the Resource lib
 import com.example.version3_355app.R;
 
 import com.example.version3_355app.databinding.FragmentNoteBinding;

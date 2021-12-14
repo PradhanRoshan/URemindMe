@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.ListView;
 
 public class NoteActivity extends AppCompatActivity {
+// this is the sample home activity
 
 
 
